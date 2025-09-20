@@ -24,3 +24,4 @@ def get_indicator(result,kpi):
         return "😐"
     else:
         return "☹️"
+https://colab.research.google.com/drive/1F0x7aOMRF8UzX7gX9x2qG2tK7sLuw20z#scrollTo=6xGkQy3cpzBc
