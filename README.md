@@ -27,3 +27,4 @@ def get_indicator(result,kpi):
 https://colab.research.google.com/drive/1F0x7aOMRF8UzX7gX9x2qG2tK7sLuw20z#scrollTo=6xGkQy3cpzBc
 
 https://colab.research.google.com/drive/1obDmp4fy43tKEO9jJ4j_fPKZBiDazWi8#scrollTo=A35xYp_IHft7
+https://colab.research.google.com/drive/1pzhm65Zo45n78l74KJCJlD4GYINAup6v#scrollTo=7uTa7KMhOId7
