@@ -37,3 +37,7 @@ x = sm.add_constant(x)
 model = sm.OLS(y, x).fit()
 print(model.summary())
 
+Xử lý outliers bằng tứ phân vị
+Q1 - 1.5IQR < x < Q3 + 1.5IQR
+
+
