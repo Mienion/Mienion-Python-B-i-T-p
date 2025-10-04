@@ -28,3 +28,12 @@ https://colab.research.google.com/drive/1F0x7aOMRF8UzX7gX9x2qG2tK7sLuw20z#scroll
 
 https://colab.research.google.com/drive/1obDmp4fy43tKEO9jJ4j_fPKZBiDazWi8#scrollTo=A35xYp_IHft7
 https://colab.research.google.com/drive/1pzhm65Zo45n78l74KJCJlD4GYINAup6v#scrollTo=7uTa7KMhOId7
+
+import pandas as pd
+import statsmodels.api as sm
+x = df['Head Size(cm^3)']
+y = df['Brain Weight(grams)']
+x = sm.add_constant(x)
+model = sm.OLS(y, x).fit()
+print(model.summary())
+
